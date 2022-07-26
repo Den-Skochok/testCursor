@@ -28,16 +28,16 @@ public class FirstHomeWork {
         secondDigit = scanner.nextInt();
 
         if (mathAction.equals("+")) {
-            System.out.println("Result: " + firstDigit + " + " + secondDigit + " = " + (firstDigit + secondDigit));
+            System.out.println("Result: " + firstDigit + " " + mathAction + " " + secondDigit + " = " + (firstDigit + secondDigit));
         } else if (mathAction.equals("-")) {
-            System.out.println("Result: " + firstDigit + " - " + secondDigit + " = " + (firstDigit - secondDigit));
+            System.out.println("Result: " + firstDigit + " " + mathAction + " " + secondDigit + " = " + (firstDigit - secondDigit));
         } else if (mathAction.equals("*")) {
-            System.out.println("Result: " + firstDigit + " * " + secondDigit + " = " + (firstDigit * secondDigit));
+            System.out.println("Result: " + firstDigit + " " + mathAction + " " + secondDigit + " = " + (firstDigit * secondDigit));
         } else if (mathAction.equals("/")) {
             if (secondDigit == 0) {
                 System.out.println("Cannot be divided by 0");
             } else {
-                System.out.println("Result: " + firstDigit + " / " + secondDigit + " = " + ((float)firstDigit / secondDigit));
+                System.out.println("Result: " + firstDigit + " " + mathAction + " " + secondDigit + " = " + ((float)firstDigit / secondDigit));
             }
         } else if(!mathAction.equals("+") || !mathAction.equals("-") || !mathAction.equals("*") || !mathAction.equals("/")){
             System.out.println("Enter correct math Action from the proposed");
