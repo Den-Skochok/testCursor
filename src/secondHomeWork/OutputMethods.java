@@ -1,4 +1,4 @@
-package secondHomeWork;
+package oop;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class OutputMethods {
 
     private static Scanner scanner = new Scanner(System.in);
 
-    public int enterFirstDigit() {
+    public int enterFirstNumber() {
         System.out.print("Please enter First Digit: ");
         return scanner.nextInt();
     }
@@ -16,7 +16,7 @@ public class OutputMethods {
         return scanner.next();
     }
 
-    public int enterSecondDigit() {
+    public int enterSecondNumber() {
         System.out.print("Please enter Second Digit: ");
         return scanner.nextInt();
     }
